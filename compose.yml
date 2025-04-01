@@ -1,0 +1,7 @@
+services:
+  app:
+    build: ./
+    image: argon/udemy_coder_django-tutorial_sns
+    volumes:
+      - ./app:/app
+    command: ["sleep", "infinity"]

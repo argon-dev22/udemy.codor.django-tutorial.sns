@@ -1,4 +1,4 @@
-# Project Name
+# Udemy Coder Django-Tutorial SNS
 
 ## Quick Start
 
