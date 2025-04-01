@@ -4,7 +4,10 @@ build:
 	docker compose build
 
 up:
-	docker compose up -d --build
+	docker compose up -d
+
+in:
+	docker compose exec -it app bash
 
 down:
 	docker compose down
